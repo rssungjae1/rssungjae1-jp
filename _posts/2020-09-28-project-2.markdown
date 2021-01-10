@@ -1,0 +1,38 @@
+---
+layout: default
+modal-id: 2
+title: 서버 업그레이드 및 데이터 관리시스템 개발
+date: 2020-09-28
+img: project_2020-09-28_thumnail.png
+alt: image-alt
+project-date: 2018.10 ~ 2019.09
+client: RonieDevStitch
+category: VB.NET, Oracle 11g
+description: 자동화 공장의 데이터 처리 및 서버 업그레이드 대응
+---
+### 개발 기간
+* 2018.10 ~ 2019.09 (약 12개월)
+
+### 소속기관
+* JDI
+
+### 담당 분야
+* SW Engineer
+
+### 사용 기술
+* WebFocus
+* Sonar
+* VB.net
+* Oracle 11g
+
+### 개발환경 (OS 등)
+* Windows
+* Linux
+* VisualStudio 2016
+* Toraja
+
+### 담당 업무
+서버 업그레이드를 위한 기존 프로그램과 배치 처리, DB 등의 버전 업을 담당했습니다.
+데이터 산출 프로그램 'WebFocus'의 노후화에 대응하였습니다.
+데이터 감시 서버 'Toraja'의 감시·설정·관리를 담당했습니다.
+특히 'WebFocus'의 경우 사용자 전용 매뉴얼 작성 및 사용자 서포터를 담당하였습니다.

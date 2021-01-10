@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+
 p {
     font-size: 20px;
 }
@@ -22,9 +23,15 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #000;
 }
 
+.navbar a {
+    color: #fff;
+}
+.white {
+    color: #fff;
+}
 h1,
 h2,
 h3,
@@ -34,6 +41,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #000;
 }
 
 hr.star-light,
@@ -64,15 +72,14 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #000000;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #000000;
     background-color: #fff;
 }
 
@@ -83,7 +90,6 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -152,11 +158,14 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background: rgba( 0, 0, 0, 0.5 );
 }
 
 .navbar a:focus {
     outline: 0;
+    color: #fff;
 }
+
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
@@ -180,11 +189,28 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+.progress {
+    height: 25px;
 }
 
+table {
+    font-size: 18px;
+}
+
+.jm {
+    font-family: 'Hanna', serif;
+}
+
+table th{
+    font-weight: bolder;
+}
+section.success{
+    color: #fff;
+    background: rgba( 0, 0, 0, 0.5 );
+}
+section.success table{
+    color: #000;
+}
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -212,14 +238,14 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: #000000;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -245,7 +271,6 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
-
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -280,7 +305,7 @@ section.success {
   } */
 
 .btn-outline {
-    margin-top: 15px;
+    margin-top: 5px;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
@@ -293,7 +318,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #000;
     background: #fff;
 }
 
@@ -360,7 +385,11 @@ footer {
 footer h3 {
     margin-bottom: 30px;
 }
-
+.progress-bar span {
+    position: absolute;
+    top: -22px;
+    right: -32px;
+}
 footer .footer-above {
     padding-top: 50px;
     background-color: #{{ site.color.secondary }};
@@ -372,7 +401,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: rgba( 0, 0, 0, 0.5 );
 }
 
 .btn-social {
@@ -423,7 +452,15 @@ footer .footer-below {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+.portfolio-modal .modal-content .modal-content-area {
+    padding: 20px 30px;
+    min-height: 100%;
+    border: 2px solid;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
@@ -473,7 +510,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #c9c9c9 !important;
 }
 
 /* Fix modal mouse wheel issues */

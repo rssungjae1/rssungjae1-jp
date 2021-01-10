@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: RonieDevStitch
+email: rssungjae.dev@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: ""
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "송성재의 포트폴리오"
+meta_author: Sungjae Song
 
 # Google webmaster tools
 google_verify:
@@ -27,8 +27,10 @@ disqus_shortname: myshortname
 color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
+  light: fcfcfc
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+  black: 000000
 
 # Footer settings
 footer:
@@ -39,16 +41,18 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: gmail
+    icon: envelope
+    url: mailto:rssungjae.dev@gmail.com
   - title: github
-    url: http://github.com/jekyll
+    icon: github
+    url: http://github.com/rssungjae1
+  - title: velog
+    icon: "velog"
+    url: https://velog.io/@rssungjae
+  - title: instagram
+    icon: instagram
+    url: http://instagram.com/songsj_nd99
 
 # Postal address (add as many lines as necessary)
 address:
