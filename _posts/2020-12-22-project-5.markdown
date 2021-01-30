@@ -1,0 +1,56 @@
+---
+layout: default
+modal-id: 3
+title: 자바 웹페이지 만들기
+date: 2020-12-22
+img: java_lecture_evaluation_thumnail.png
+alt: image-alt
+project-date: 2020.12 ~ 2020.12
+client: RonieDevStitch
+category: Eclipse IDE, java 1.8, javascript 1.0, mysql 8.0
+description: jsp, tomcat, mysql을 이용한 restful api 만들기
+---
+
+[git 바로가기](https://github.com/rssungjae1/java_lecture_evaluation)
+
+### 사용 기술
+* java 1.8
+* javascript 1.0
+* tomcat 8.5
+* mysql 8.0
+* bootstrap 3.3.2
+* popper
+
+### 개발환경 (OS 등)
+* Windows 10
+* Eclipse IDE
+
+### 프로젝트 구성도
+<figure class="middle">
+	<img src="..\img\portfolio-content\2020-12-22-java_lecture_evaluation.png" width="80%" height="auto">
+</figure>
+
+### 프로젝트 개요
+예전에 배웠던 자바 웹페이지 제작과정 리마인드 겸 mySQL 리마인드하기 위한 강의평가 웹사이트 제작
+유튜브 동빈나의 강의를 수강하며 제작하였음
+
+### 사이트 이미지
+* 전체 사이트 이미지
+<figure class="middle">
+	<img src="..\img\portfolio-content\2020-12-22-java_lecture_evaluation(1).png" width="80%" height="auto">
+</figure>
+
+* 평가등록 기능
+<figure class="middle">
+	<img src="..\img\portfolio-content\2020-12-22-java_lecture_evaluation(2).png" width="80%" height="auto">
+</figure>
+
+* 신고기능_google 관리자 이메일로 전송됨
+<figure class="middle">
+	<img src="..\img\portfolio-content\2020-12-22-java_lecture_evaluation(3).png" width="80%" height="auto">
+</figure>
+
+* 검색기능
+<figure class="middle">
+	<img src="..\img\portfolio-content\2020-12-22-java_lecture_evaluation(4).png" width="80%" height="auto">
+</figure>
