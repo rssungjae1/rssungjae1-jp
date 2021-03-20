@@ -93,8 +93,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 header img {
@@ -209,7 +209,7 @@ section.success table{
 }
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 20px 0;
     }
 
     section.first {
@@ -308,7 +308,6 @@ section.success table{
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -316,6 +315,22 @@ section.success table{
     border: solid 2px #fff;
     color: #000;
     background: #fff;
+}
+
+.btn-outline2 {
+    margin-top: 5px;
+    border: solid 2px rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline2:hover,
+.btn-outline2:focus,
+.btn-outline2:active,
+.btn-outline2.active {
+    color: #fff;
+    background: #000;
 }
 
 .floating-label-form-group {
