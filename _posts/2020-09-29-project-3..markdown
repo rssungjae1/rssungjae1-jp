@@ -1,26 +1,26 @@
 ---
 layout: default
 modal-id: 3
-title: AWS기반 빅데이터 처리 프로젝트
+title: AWS基盤のビックデータ処理プロジェクト
 date: 2020-09-29
 img: project_2020-09-29_thumnail.png
 alt: image-alt
 project-date: 2019.10 ~ 2020.02
 client: RonieDevStitch
 category: AWS, Node.js, Python
-description: AWS기반 lambda등 빅데이터 에러체크, 카운팅 보고시스템 개발
+description: AWS基盤のLambdaなどビックデータパーシング、エラーチェック、カウンター、報告システム開発
 ---
 
-### 개발 기간
-* 2019.10 ~ 2020.02 (약 5개월)
+### 開発期間
+* 2019.10 ~ 2020.02 (五か月)
 
-### 소속기관
-* CEC
+### 所属機関
+* (株）JCEC
 
-### 담당 분야
+### 担当
 * SW Engineer
 
-### 사용 기술
+### 使用技術
 * Node.js
 * Python
 * AWS Lambda
@@ -29,17 +29,17 @@ description: AWS기반 lambda등 빅데이터 에러체크, 카운팅 보고시�
 * AWS SES
 * AWS StepFunctions
 
-### 개발환경 (OS 등)
+### 開発環境
 * Windows 10
 * Linux
 * VisualStudioCode
 
-### 담당 업무
-* 빅 데이터 에러 알람 lambda 개발(데이터 필터링)
-* SES 빅데이터 보고 시스템 개발
-* lambda 배치 처리 개발(StepFunctions)
+### 担当業務
+* ビックデータパーシングエラーアラムLambda開発（データフィルター）
+* SES ビックデータカウンター報告システム開発
+* Lambdaバッチ処理開発(StepFunctions)
 
-### 프로젝트 구성도
+### プロジェクト構成図
 <figure class="middle">
 	<img src="..\img\portfolio-content\2020-09-27-project_201910_202002.png" width="80%" height="auto">
 </figure>

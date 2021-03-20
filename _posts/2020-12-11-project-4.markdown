@@ -1,34 +1,33 @@
 ---
 layout: default
 modal-id: 4
-title: ZikCAM(직캠제작기능)
+title: ZikCAM(密着カメラ)
 date: 2020-12-11
 img: python_project_zikcam_thumnail.png
 alt: image-alt
 project-date: 2020.12 ~ 2020.12
 client: RonieDevStitch
 category: Python, Pkinter
-description: Python의 tkinter와 opencv를 이용한 직캠 제작 툴
+description: PythonのTkinterとopencvを利用した密着映像編集ツール開発
 ---
 
-[git 바로가기](https://github.com/rssungjae1/python_project_zikcam)
+[git先](https://github.com/rssungjae1/python_project_zikcam)
 
-### 개발 기간
-* 2020.12 ~ 2020.12 (약 이틀)
+### 開発期間
+* 2020.12 ~ 2020.12 (二日)
 
-### 담당 분야
+### 担当
 * SW Engineer
 
-### 사용 기술
-* Python
-* tkinter
-* opencv
+### 使用技術
+* Python tkinter
+* Python opencv
 
-### 개발환경 (OS 등)
+### 開発環境
 * Windows 10
 * VisualStudioCode
 
-### 도구 이미지
+### ツールイメージ
 <figure class="middle">
 	<img src="..\img\portfolio-content\python_project_zikcam1.png" width="80%" height="auto">
 </figure>
@@ -36,9 +35,9 @@ description: Python의 tkinter와 opencv를 이용한 직캠 제작 툴
 	<img src="..\img\portfolio-content\python_project_zikcam2.png" width="80%" height="auto">
 </figure>
 
-### 프로젝트 개요
-python 기본 gui 라이브러리인 tkinter와 비디오 라이브러리 openv를 사용하여 동영상 밀착 카메라 프로그램 제작
+### プロジェクト概要
+Python基本GUIライブラリーTkinterとビデとライブラリーOpenCVを利用して密着映像編集ツール開発
 
-### 향후 업데이트
-선택 영역의 사이즈를 동적으로 하여 에러 대응 필요.
-opencv의 tracker 함수의 인식 설정 수정, 지금은 해당 인물이 겹치거나 하면 인식할 수 없는 문제점이 있음.
+### 後記
+* 選択英訳のサイズを動的にしてエラー対応必要
+* 顔認識を利用して、人が重ねても認識できるように技能追加が必要
